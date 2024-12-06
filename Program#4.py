@@ -50,7 +50,7 @@ def update():
 
 def delete():
     delete = int(input('City to remove from db (By ID):'))
-    cursor.execute("DELETE row From cities", )
+    cursor.execute("DELETE cities FROM city_id={delete}")
 
 def end():
     print('OK')
